@@ -35,9 +35,6 @@ public:
 	void runPayroll();
 	void createEmployee(std::string firstName, std::string lastName, std::string SSN, float basePay,
 		  float commission, EmployeeType employeeType, std::string payType, std::string supervisor);
-	//void updateEmployee(std::string firstName, std::string lastName, std::string SSN, float basePay,
-	//	  float commission, EmployeeType employeeType, std::string payType, std::string supervisor);
-	//void deleteEmploy(std::string ssn);
 
 	void supervisorApproveOT(std::string, std::string, Date);
 	int getNumberOfEmployees();
